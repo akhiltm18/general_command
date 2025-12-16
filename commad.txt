@@ -1,0 +1,9 @@
+smem -r | head -n 20
+curl ifconfig.me
+ssh-copy-id devops@192.168.0.122
+
+sudo apt-get upgrade --dry-run
+
+scp -i tm.pem /home/codilar/Desktop/AWS/tm.pem ubuntu@35.173.249.117:/home/ubuntu
+
+scp -i tm.pem /home/codilar/Desktop/AWS/tm.pem ubuntu@35.173.249.117:/home/ubuntu
