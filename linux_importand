@@ -1,0 +1,65 @@
+useradd user
+usermod -aG group user
+userdel user
+groupadd group
+passwd user
+id user
+whoami
+
+
+chmod 755 file
+chmod -R 644 dir
+chown user:user file
+chown -R user:group dir
+umask
+
+
+ps aux
+top
+htop
+kill PID
+kill -9 PID
+pkill process
+
+
+df -h
+du -sh dir
+lsblk
+mount
+umount
+blkid
+fdisk -l
+
+
+
+NETWORKING COMMANDS
+ip a
+ip r
+ping google.com
+ss -tulnp
+netstat -tulnp
+curl http://example.com
+wget url
+traceroute google.com
+nslookup domain
+dig domain
+
+
+SSH & REMOTE ACCESS
+ssh user@server
+ssh-keygen
+ssh-copy-id user@server
+scp file user@server:/path
+rsync -av src/ dest/
+
+
+ARCHIVE & COMPRESSION
+tar -cvf file.tar dir
+tar -xvf file.tar
+tar -czvf file.tar.gz dir
+tar -xzvf file.tar.gz
+zip -r file.zip dir
+unzip file.zip
+
+
+
